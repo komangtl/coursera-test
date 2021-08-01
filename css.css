@@ -1,0 +1,99 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+#container {
+    padding: 30px;
+    margin: 50px 100px;
+}
+
+.subcont {
+    border: solid black;
+    float: left;
+    width: 33%;
+    margin: 5px;
+    background-color: rgb(173, 173, 173);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.subhead {
+    padding: 3px 60px;
+    border-left: black solid;
+    border-bottom: black solid;
+    float: right;
+    margin-top: 0px;
+    font-size: 150%;
+}
+
+.fire-color {
+    background-color: red;
+    color: snow;
+}
+
+.talk-color {
+    background-color: seagreen;
+    color: tan;
+}
+
+.wild-color {
+    background-color: rgb(30, 139, 182);
+    color: tomato;
+}
+
+.content {
+    padding: 30px 5px 5px 5px;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    #fire {
+        width: 30%;
+    }
+    #talk {
+        width: 30%;
+    }
+    #wild {
+        width: 30%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) and (min-width: 768px) {
+    #fire {
+        width: 45%;
+    }
+    #talk {
+        width: 45%;
+    }
+    #wild {
+        width: 91.35%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    #container {
+        margin-top: 20px;
+    }
+    #fire {
+        width: 100%;
+    }
+    #talk {
+        width: 100%
+    }
+    #wild {
+        width: 100%;
+    }
+}
